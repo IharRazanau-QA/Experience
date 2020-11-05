@@ -1,0 +1,76 @@
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir igor1
+3) Зайти в папку - cd igor1
+4) Создать 3 папки - mkdir igor2 igor3 igor4
+5) Зайти в любую папку - cd igor2
+6) Создать 5 файлов (3 txt, 2 json) - touch name1.txt name2.txt name3.txt name4.json name5.json
+7) Создать 3 папки - mkdir 1 2 3
+8) Вывести список содержимого папки - ls -la
+9) + Открыть любой txt файл - nano name1.txt
+10) + написать туда что-нибудь, любой текст  
+11) + сохранить и выйти. - CTRL+X
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку - mv -v /home/user-01/igor1/igor2/name2.txt name3.txt /home/user-01/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку - cp /home/user-01/igor1/{name2.txt,name3.txt} /home/user-01/igor1/igor2/
+15) Найти файл по имени - locate name5
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. 
+1 вариант (c cat - вывод содержимого файла) cat /home/user-01/igor1/igor2/name1.txt
+2 вариант (с grep) grep /home/user-01/igor1/igor2/name1.txt
+17) вывести несколько первых строк из текстового файла - head -n2 /home/user-01/igor1/igor2/name1.txt
+18) вывести несколько последних строк из текстового файла - tail -n2 /home/user-01/igor1/igor2/name1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает - less /home/user-01/igor1/igor2/name1.txt
+20) вывести дату и время - date
+
+=======================
+
+Задание *
+1) Отправить http запрос на сервер
+https://api.quarantine.country/api/v1/regions
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+3) Зайти в папку - cd igor1
+4) Создать 3 папки - mkdir igor2 igor3 igor4
+5) Зайти в любую папку - cd igor2
+6) Создать 5 файлов (3 txt, 2 json) - touch name1.txt name2.txt name3.txt name4.json name5.json
+7) Создать 3 папки - mkdir 1 2 3
+8) Вывести список содержимого папки - ls -la
+13) переместить любые 2 файла, которые вы создали, в любую другую папку - mv -v /home/user-01/igor1/igor2/name2.txt name3.txt /home/user-01/
+=========================================
+sudo apt install curl
+curl -d "status=200&type=stack&data" https://api.quarantine.country/api/v1/regions
+или curl https://api.quarantine.country/api/v1/regions
+
+
+
+mkdir igor1
+touch Script1.txt
+nano Script1.txt
+chmod ugo+x Script1.txt
+./Script1.txt
+
+
+Script1.txt
+cd igor1
+mkdir igor2 igor3 igor4
+cd igor2
+touch name1.txt name2.txt name3.txt name4.json name5.json
+mkdir 1 2 3
+ls -la
+mv -v /home/user-01/igor1/igor2/name2.txt name3.txt /home/user-01/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
