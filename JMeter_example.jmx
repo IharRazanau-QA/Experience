@@ -30,8 +30,8 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -144,8 +144,8 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -870,7 +870,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <hashTree/>
         </hashTree>
       </hashTree>
-      <com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup guiclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroupGui" testclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup" testname="bzm - Concurrency Thread Group Stepping" enabled="true">
+      <com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup guiclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroupGui" testclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup" testname="bzm - Concurrency Thread Group Stepping" enabled="false">
         <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="TargetLevel">700</stringProp>
@@ -886,8 +886,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -1099,7 +1099,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Stepping)" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Stepping)" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">1200</stringProp>
         <stringProp name="Threads initial delay">5</stringProp>
@@ -1120,8 +1120,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -2113,7 +2113,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group Spike" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group Spike" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-2080015092">
             <stringProp name="1567005">3000</stringProp>
@@ -2169,8 +2169,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -3125,7 +3125,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Spike)" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Spike)" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">4000</stringProp>
         <stringProp name="Threads initial delay">5</stringProp>
@@ -3146,8 +3146,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -4139,7 +4139,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group Endurance" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group Endurance" enabled="false">
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="-1468928058">
             <stringProp name="48625">100</stringProp>
@@ -4209,8 +4209,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>
@@ -4339,7 +4339,7 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Endurance)" enabled="true">
+      <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="jp@gc - Stepping Thread Group (Endurance)" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="ThreadGroup.num_threads">500</stringProp>
         <stringProp name="Threads initial delay">5</stringProp>
@@ -4360,8 +4360,8 @@ vars.put(&quot;token&quot;, auth_token);</stringProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">109.248.203.4</stringProp>
-          <stringProp name="HTTPSampler.port">5003</stringProp>
+          <stringProp name="HTTPSampler.domain">116.203.27.46</stringProp>
+          <stringProp name="HTTPSampler.port">5002</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/get_method?age=50&amp;name=Igor</stringProp>

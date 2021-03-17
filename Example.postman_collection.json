@@ -11,7 +11,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "c8a25d33-0f60-49bf-9515-66971be8111e",
 						"exec": [
 							"var JsonData = JSON.parse (responseBody);\r",
 							"pm.environment.set(\"token\", JsonData.token);"
@@ -36,21 +35,18 @@
 							"value": "qwerty16891",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/login",
+					"raw": "http://116.203.27.46:5002/login",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"login"
 					]
@@ -64,7 +60,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "e86202ff-a940-4fe8-9fed-9ce040f5162c",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -135,21 +130,18 @@
 							"value": "{{token}}",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/user_info",
+					"raw": "http://116.203.27.46:5002/user_info",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"user_info"
 					]
@@ -163,7 +155,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "6a3c91d3-7018-4f43-884b-1b483dc9ed60",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -234,21 +225,18 @@
 							"value": "{{token}}",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/new_data",
+					"raw": "http://116.203.27.46:5002/new_data",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"new_data"
 					]
@@ -262,7 +250,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "b50b4500-9a2a-4676-a9ad-e4627bfa095f",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -316,21 +303,18 @@
 							"value": "{{token}}",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/test_pet_info",
+					"raw": "http://116.203.27.46:5002/test_pet_info",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"test_pet_info"
 					]
@@ -344,7 +328,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "111c7ad9-0510-4ba6-a595-bf2b272a7219",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -392,21 +375,18 @@
 							"value": "{{token}}",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/get_test_user",
+					"raw": "http://116.203.27.46:5002/get_test_user",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"get_test_user"
 					]
@@ -420,7 +400,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "959d87f4-c5df-42b9-a11f-936c65879c55",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);\r",
 							"var randomID = Math.floor(Math.random() * jsonData.length);\r",
@@ -459,21 +438,18 @@
 							"type": "text",
 							"disabled": true
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/currency",
+					"raw": "http://116.203.27.46:5002/currency",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"currency"
 					]
@@ -487,7 +463,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "95a94e27-8777-4798-9655-56233bb79987",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
@@ -517,21 +492,18 @@
 							"value": "{{Cur_ID_R}}",
 							"type": "text"
 						}
-					],
-					"options": {
-						"formdata": {}
-					}
+					]
 				},
 				"url": {
-					"raw": "http://109.248.203.4:5003/get_test_user",
+					"raw": "http://116.203.27.46:5002/get_test_user",
 					"protocol": "http",
 					"host": [
-						"109",
-						"248",
+						"116",
 						"203",
-						"4"
+						"27",
+						"46"
 					],
-					"port": "5003",
+					"port": "5002",
 					"path": [
 						"get_test_user"
 					]
@@ -542,10 +514,8 @@
 	],
 	"variable": [
 		{
-			"id": "cc045314-af13-4258-bad7-6f96eed3a2ad",
 			"key": "weight",
 			"value": ""
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
